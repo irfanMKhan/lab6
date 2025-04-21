@@ -1,6 +1,6 @@
 package edu.miu.cs.cs489.lesson6.dentistapp.security;
 
-import com.nagad.microservice.notification.model.AbstractDTO;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class RoleDTO extends AbstractDTO {
+public class RoleDTO  {
 
     private Long id;
     private String name;
